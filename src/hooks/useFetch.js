@@ -31,6 +31,7 @@ export const useFetch = ( url ) => {
                     });
                 }
                 
+<<<<<<< Updated upstream
             })
             .catch( () => {
                 setState({
@@ -39,6 +40,9 @@ export const useFetch = ( url ) => {
                     error: 'No se pudo cargar la informacion'
                 })
             })
+=======
+            });
+>>>>>>> Stashed changes
         
     }, [url]);
 
