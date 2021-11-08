@@ -65,7 +65,7 @@ describe('Pruebas en todoReducer', () => {
         expect(state).toEqual(modified);
         
 
-    })
+    });
     
 
     

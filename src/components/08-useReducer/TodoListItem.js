@@ -24,3 +24,6 @@ export const TodoListItem = memo( ({ todo, index, handleDelete, handleToggle }) 
     )
 }
 )
+
+
+TodoListItem.displayName='TodoListItem';

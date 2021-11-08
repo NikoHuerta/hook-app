@@ -51,3 +51,6 @@ export const TodoAdd = memo( ({ handleAddTodo }) => {
     )
 }
 )
+
+
+TodoAdd.displayName='TodoAdd';
