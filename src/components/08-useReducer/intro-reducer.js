@@ -8,7 +8,11 @@ const initialState = [{
 
 const todoReducer = (state = initialState, action) => {
     
+<<<<<<< Updated upstream
     if(action?.type === 'agregar'){  //si la accion tiene un tipo, sino, no hacer nada
+=======
+    if(action?.type === 'agregar'){
+>>>>>>> Stashed changes
         return [...state, action.payload];
     }
 
